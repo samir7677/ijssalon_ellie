@@ -1,4 +1,5 @@
 from algemene_functies import mijn_functie_2 
+
 def aanbieding_1(smaak, prijs, korting):
     korting = prijs * 0.1 
     nieuwe_prijs = prijs - korting
@@ -31,7 +32,7 @@ def meervoudig(invoer_lijst):
 def combinatie(invoer_lijst_2):
     korte_lijst = laag_en_hoog(invoer_lijst_2) 
     return mijn_functie_2(korte_lijst)
-print(mijn_functie_2)
+
 
 
 
